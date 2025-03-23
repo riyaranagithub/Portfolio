@@ -25,17 +25,6 @@ function Projects() {
             />
           </Col>
 
-       
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              isBlog={false}
-              title="Expense Tracker"
-              description="A web application for tracking daily expenses, built using React, Firebase, and Tailwind CSS with Netlify deployment."
-              ghLink="https://github.com/riyaranagithub/ExpenseTracker"
-              demoLink="https://exxpense-trackker.netlify.app"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -47,27 +36,8 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              isBlog={false}
-              title="Meme Generator"
-              description="A fun project to generate memes with custom text using React and a public meme API."
-              ghLink="https://github.com/riyaranagithub/Meme-Generator"
-              demoLink="https://meme-generator-react-rr.netlify.app/"
-            />
-          </Col>
-
-       
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              isBlog={false}
-              title="React Redux Appwrite Todo"
-              description="A fully functional Todo application built with React, Redux, and Appwrite, featuring CRUD operations and state management."
-              ghLink="https://github.com/riyaranagithub/React-Redux-Appwrite-Todo"
-              demoLink="https://react-redux-appwrite-todo.netlify.app/"
-            />
-          </Col>
+  
+   
 
           <Col md={4} className="project-card">
             <ProjectCard
